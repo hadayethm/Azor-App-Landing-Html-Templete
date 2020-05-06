@@ -1,0 +1,107 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .single-feature-list .content .title {
+        font-size: 18px;
+    }
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .hader-table-cell h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+        line-height: 45px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .single-demo-item .thumb img{
+        width: 100%;
+    }
+    .single-demo-item .thumb{
+        margin-bottom: 30px;
+    }
+    .template-showcase{
+        padding-bottom: 90px;
+    }
+    .single-feature-list {
+        max-width:  414px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .feature-area{
+        padding-bottom: 90px;
+    }
+    .hader-table-cell h2,
+    .section-title .title{
+        line-height: 1.2;
+    }
+}
+
+/* Wide Mobile Layout Only: 414px. */
+@media only screen and (max-width: 414px) {
+    .hader-table-cell h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .section-title .title {
+        font-size: 39px;
+        line-height: 45px;
+    }
+    .hader-table-cell .boxed-btn {
+        margin: 0 5px;
+    }
+} 
+/* Wide Mobile Layout Only: 375px. */
+@media only screen and (max-width: 384px) {
+    .section-title .title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .section-title .subtitle {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .hader-table-cell h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+/* Wide Mobile Layout Only: 360px. */
+@media only screen and (max-width: 360px) {
+    .section-title .title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .section-title .subtitle {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .hader-table-cell h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .hader-table-cell p {
+        font-size: 18px;
+    }
+    .boxed-btn, input[type='submit'], button[type='submit'] {
+        font-size: 14px;
+        line-height: 50px;
+        width: 130px;
+    }
+    .single-feature-list .content .title {
+        font-size: 20px;
+    }
+} 
+    
+    /* Wide Mobile Layout Only: 480px. */
+@media only screen and (max-width: 320px) { 
+    .section-title .title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .single-feature-list .content .title {
+        font-size: 18px;
+    }
+}
+

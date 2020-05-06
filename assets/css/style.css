@@ -1,0 +1,369 @@
+/*--------------------
+	Css Indexing 
+-------------------*/
+
+
+/*-----------------------
+	Global Css
+------------------------*/
+
+
+/*====================
+ Base CSS 
+ =====================*/
+
+ @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.hader-table-cell h1 {
+    font-size:  80px;
+    font-weight: 700;
+}
+
+.hader-table-cell p {
+    font-size: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #373737;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #999;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+input[type="text"],
+input[type="url"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+textarea {
+    padding: 10px 15px;
+    border: 1px solid #EFEFEF;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    padding: 11px 25px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 400;
+}
+
+.boxed-btn,
+input[type='submit'],
+button[type='submit'] {
+    display: inline-block;
+    background: #9749f8;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 55px;
+    width: 150px;
+    transition: .3s ease-in;
+    font-weight: 700;
+}
+.margin-top-30{
+    margin-top:0px;
+}
+.boxed-btn:hover,
+.boxed-btn:focus {
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.section-title {
+    margin-bottom: 80px;
+}
+.boxed-btn:hover{
+    background-color: #313131;
+}
+/*--------------------
+    Feature Area
+---------------------*/
+.feature-area{
+    background-color: #f7f7f7;
+    padding: 115px 0 80px 0;
+}
+.section-title .title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #313133;
+
+}
+.section-title .subtitle{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #9749f8;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 15px;
+}
+.single-feature-list{
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+}
+.single-feature-list .icon{
+    margin-bottom: 30px;
+}
+.single-feature-list .content .title{
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #313131;
+}
+/*------------------------------
+    Header Area
+------------------------------*/
+
+.header-area.header-bg-2 {
+    background-color: #fff;
+    background-image: url(../img/bg/header-bg-2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    padding: 250px 0 250px 0;
+}
+.header-area.header-bg-2 .header-inner .title {
+    color: #fff;
+    
+}
+.header-area.header-bg-2 .header-inner {
+    text-align: center;
+}
+.header-area.header-bg-2 .header-inner p {
+    color: #fefefe;
+}
+.header-area .header-inner .title {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #252a32;
+    margin-bottom: 22px;
+}
+.header-area .header-inner p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #505b6d;
+    max-width: 520px;
+    margin: 0 auto;
+}
+.header-area .header-inner .btn-wrapper {
+    margin-top: 35px;
+    
+}
+.header-area .header-inner .btn-wrapper .boxed-btn {
+    margin: 0 10px;
+    border: none;
+    width: 165px;
+    height: 60px;
+    line-height: 55px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    background-image: -moz-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%);
+    background-image: -webkit-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%);
+    background-image: -ms-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%);
+    -webkit-box-shadow: 0px 3px 20px 0px rgba(13, 21, 75, 0.3);
+    box-shadow: 0px 3px 20px 0px rgba(13, 21, 75, 0.3);
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    text-transform: capitalize;
+    border-radius: 30px;
+}
+.header-area .header-inner .btn-wrapper .boxed-btn.blank {
+    background-color: #fff;
+    color: #252a32;
+    border: 2px solid #505b6d;
+    background-image: -moz-linear-gradient(0deg, transparent 0%, transparent 100%);
+    background-image: -webkit-linear-gradient(0deg, transparent 0%, transparent 100%);
+    background-image: -ms-linear-gradient(0deg, transparent 0%, transparent 100%);
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+.header-area .header-inner .btn-wrapper .boxed-btn.blank img {
+    margin-right: 3px;
+}
+.header-area .header-inner .btn-wrapper .boxed-btn.blank:hover {
+    background-image: -moz-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%);
+    background-image: -webkit-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%);
+    background-image: -ms-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%);
+    -webkit-box-shadow: 0px 3px 20px 0px rgba(13, 21, 75, 0.3);
+    box-shadow: 0px 3px 20px 0px rgba(13, 21, 75, 0.3);
+    border-color: #fff;
+    color: #fff;
+}
+.header-area .header-inner .btn-wrapper .boxed-btn:first-child {
+    margin-left: 0;
+}
+.header-area .header-inner .btn-wrapper .boxed-btn:hover {
+    background-image: -moz-linear-gradient(0deg, transparent 0%, transparent 100%);
+    background-image: -webkit-linear-gradient(0deg, transparent 0%, transparent 100%);
+    background-image: -ms-linear-gradient(0deg, transparent 0%, transparent 100%);
+    background-color: #fff;
+    color: #505b6d;
+}
+
+  
+.footer-area-start{
+  padding: 30px 0;
+  background-color: #222222;
+  color: #fff;
+}
+/*----------------------
+    Teamplate Showcase
+----------------------*/
+.template-showcase{
+    padding: 117px 0 120px 0;
+}
+.single-demo-item {
+    position: relative;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.6);
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.single-demo-item .thumb img{
+    border-radius: 15px;
+}
+.single-demo-item .hover {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    width:  100%;
+    height:  100%;
+    background-color: rgba(0,0,0,0.7);
+    display:  flex;
+    align-items:  center;
+    justify-content: center;
+    transition: .3s ease-in;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 15px;
+}
+.single-demo-item .hover .hover-inner{
+    text-align: center;
+}
+.single-demo-item .hover .hover-inner .title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 30px;
+}
+.single-demo-item:hover .hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media only screen and (max-width:414px){
+    .header-area .header-inner .title {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 48px;
+        color: #252a32;
+        margin-bottom: 22px;
+    }
+    .header-area .header-inner p {
+        font-size: 18px;
+        line-height: 28px;
+        color: #505b6d;
+        max-width: 520px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:360px){
+    .header-area .header-inner .title {
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 45px;
+        color: #252a32;
+        margin-bottom: 22px;
+    }
+    .header-area .header-inner p {
+        font-size: 18px;
+        line-height: 28px;
+        color: #505b6d;
+        max-width: 520px;
+        margin: 0 auto;
+    }
+    .header-area .header-inner .btn-wrapper .boxed-btn {
+        margin: 0 5px;
+        width: 135px;
+    }
+    .header-area.header-bg-2 {
+        padding: 200px 0 200px 0;
+    }
+}
+@media only screen and (max-width:340px){
+    .header-area .header-inner .title {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        color: #252a32;
+        margin-bottom: 22px;
+    }
+    .header-area .header-inner p {
+        font-size: 16px;
+        line-height: 26px;
+        color: #505b6d;
+        max-width: 520px;
+        margin: 0 auto;
+    }
+    .single-demo-item .hover .hover-inner .title {
+        font-size: 28px;
+        font-weight: 700;
+        color: #fff;
+        margin-top: 20px;
+    }
+}
